@@ -1,0 +1,797 @@
+body, html {
+  font-family: 'Lucida Console', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: initial;
+  background: white; 
+}
+
+/* --------------------------------------TOP MENU, NAVIGATION-------------------------------------- */
+
+div.top-menu {
+	display: flex;
+	width: 100%;
+	height: 3.3em;
+	position: fixed;
+	z-index: 1;
+	background-color: white;
+  border-bottom-color: rgb(109, 157, 119);
+	border-bottom-style: dashed;
+	border-bottom-width: 0.05em;
+}
+
+nav.navigation {
+	width: 100%;
+	z-index: 1;
+	height: 3.3em;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+#top a:link {
+	color: #6d9d78;
+	text-decoration: none;
+}
+
+#top a:visited {
+	text-decoration: none;
+	color: #6d9d78;
+}
+
+#top a:hover {
+	color: #fcd253;
+	text-decoration: none;
+}
+
+#top a:active {
+	color: #fcd253;
+	text-decoration: none;
+}
+
+
+div.logo img {
+	  z-index: 1;
+    margin-bottom: 0.4em;
+    margin-right: 0.5em;
+    margin-left: 1em;
+    margin-top: 0.4em;
+    height: 2.5em;
+}
+
+ ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  height: 3em;
+  vertical-align: center;
+  overflow: scroll;
+  margin-top: 0;
+  margin-bottom: 0;
+} 
+
+ li {
+ color: rgb(97, 97, 97);
+ font-family: Architects Daughter;
+  font-weight: 130;
+  letter-spacing: 0.2em;
+  display: inline-block; 
+  width: 22.5%;
+  text-align: center;
+  padding-top: 0.7em;
+  font-size: 1.3em;
+}
+
+li:hover {
+	color: #e1c53a;
+}
+
+
+/* --------------------------------------CONTENT-------------------------------------- */
+
+div.wszystko {
+	position: relative;
+	margin-top: 3.3em;
+}
+
+div#poczatek {
+background-image: url("https://preview.ibb.co/f8Yjxm/1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 725px;
+width: 100%;
+background-position: 45% 55%;
+}
+
+h9 {
+  font-family: Barlow Semi Condensed;
+  font-size: 3.5em;
+  color: #ad8f51;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 2.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  transition: all .6s ease-in-out;
+  cursor: default;
+
+}
+
+h9:hover {
+color: #977330;
+}
+
+
+/* --------------------------------------ABOUT_ME-------------------------------------- */
+
+div#kilkaslowomnie {
+  font-family: Barlow Semi Condensed;
+  display: block;
+  font-size: 2.5em;
+  text-align: left;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  color: #6d9d78;
+  margin-left: 2.2em;
+  margin-bottom: 0.3em;
+}
+
+div#backgroundish {
+  background-image: url("https://image.ibb.co/gAakQG/jasne.png");
+  background-size: cover;
+
+}
+div#omnie {
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: right;
+  align-content: right;
+  position: relative; 
+  width: 100%;
+  text-align: right;
+  font-family: inherit;
+  font-size: 20pt;
+  /* background-image: url("https://image.ibb.co/h54xpb/tloaa.png"); */
+
+}
+
+p7 {
+  font-family: Architects Daughter;
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  color: #595d5b;
+  margin-left: 1em;
+}
+
+div#cechy {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  grid-column-gap: 0.3em;
+  grid-row-gap: 0.5em;
+  grid-row: auto;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-left: 22em;
+  position: absolute;
+  margin-right: 0.9em;
+}
+
+.zakladki {
+	border: 2px rgba(162, 161, 156, 0.25) solid;
+	text-align: justify;
+	background-color: rgba(167, 167, 167, 0.09);
+}
+
+i#charakter {
+	font-size: 1em;
+  display: block;
+	margin-top: 5%;
+  text-align: center;
+	}
+
+div#zdania:hover {
+  background-color: rgba(167, 167, 167, 0.28);
+  border-style: dashed;
+}
+
+
+p0 {
+	vertical-align: middle;
+	font-size: 0.71em;
+  font-family: Barlow Semi Condensed;
+}
+
+img#aga{
+height: 14em;
+margin-left: 3.5em;
+margin-right: 4em;
+border-style: solid;
+border-width: 0.2em;
+border-color: #e2e1e0;
+}
+
+
+/* --------------------------------------PORTFOLIO-------------------------------------- */
+
+div#portfoliowe {
+background: linear-gradient(#ffffff24, #ffffff24 60%, #f5f5f4);
+}
+
+div#zaproszenie {
+  font-family: Barlow Semi Condensed;
+  display: block;
+  font-size: 2.5em;
+  text-align: left;
+  color: black;
+  padding-top: 2.3em;
+  padding-bottom: 0.5em;
+  color: #6d9d78;
+  margin-left: 2.5em;
+}
+
+p13 {
+  color: #828a85;
+  font-size: 0.4em;
+}
+
+@media only screen and (max-device-width: 480px) {
+  div#zaproszenie {
+    display: block;
+    font-size: 1.2em;
+  }
+}
+
+
+div#portfolio {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-column-gap: 1.8em;
+  grid-row-gap: 1.8em;
+  padding-bottom: 3.5em;
+  width: 75%;
+  grid-template-columns: 33% 33% 33%;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+
+
+div#zdjecie0 {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/22449651_1421218781329929_1880927766183455817_n.jpg?oh=07f34b30ab6d4ed8e9bd65fc7f5f5530&oe=5AD75092");
+  height: 20em;
+  width: 20em;
+  background-position: 10% 50%;
+      background-size: cover;
+  opacity: 0.6;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: #646d66;
+}
+
+div#zdjecie1 {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t31.0-8/23215704_1439375546180919_9149239602447671644_o.jpg?oh=c1beb963a435483638848f4a83a9c73f&oe=5AD18526");
+  height: 20em;
+  width: 20em;
+  background-position: 1% 90%;
+      background-size: cover;
+  opacity: 0.6;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: #646d66;
+}
+
+div#zdjecie2 {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/22154240_1411641528954321_3259149573290335331_n.jpg?oh=4356d372f47dfbaaaa9f787805e45ea7&oe=5A973953");
+    height: 20em;
+    width: 20em;
+    background-position: 50% 18%;
+        background-size: cover;
+      opacity: 0.6;
+      border-style: solid;
+  border-width: 0.1em;
+  border-color: #646d66;
+}
+
+div#zdjecie3 {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18839295_1306059366179205_6527978266535803647_n.jpg?oh=7321a740ee0ce5285d3c7b744bbfb007&oe=5AD30136");
+    height: 20em;
+    width: 20em;
+    background-position: 50% 15%;
+        background-size: cover;
+      opacity: 0.6;
+      border-style: solid;
+  border-width: 0.1em;
+  border-color: #646d66;
+}
+
+
+div#zdjecie4 {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t31.0-8/19477679_1326824757435999_2963981415991054954_o.jpg?oh=eede824577c9ac7c0777b963953b9fb1&oe=5A8F8D88");
+    height: 20em;
+    width: 20em;
+    background-position: 55% 23%;
+    background-size: cover;
+      opacity: 0.6;
+      border-style: solid;
+  border-width: 0.1em;
+  border-color: #646d66;
+}
+
+div#zdjecie5 {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/20264887_1352413488210459_2308770919690370567_n.jpg?oh=5dae8191b8d017c4654b4603d49179e8&oe=5AD6A7F6");
+    height: 20em;
+    width: 20em;
+    background-position: 80% 20%;
+        background-size: cover;
+      opacity: 0.6;
+      border-style: solid;
+  border-width: 0.1em;
+  border-color: #646d66;
+}
+
+div#zdjecie6 {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18813289_1298783360240139_4685627033918137800_n.jpg?oh=2574fe3006b2a7cd8fe8d0a48309a846&oe=5A980965");
+    height: 20em;
+    width: 20em;
+    background-position: 45% 20%;
+        background-size: cover;
+      opacity: 0.6;
+      border-style: solid;
+  border-width: 0.1em;
+  border-color: #646d66;
+}
+
+
+div#zdjecie7 {
+      background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18010080_1259688607482948_7524542442297600528_n.jpg?oh=f8f44c43e6473ef8a38d776ce84eed4b&oe=5A8C374D");
+    height: 20em;
+    width: 20em;
+    background-position: 1% 20%;
+        background-size: cover;
+      opacity: 0.6;
+      border-style: solid;
+  border-width: 0.1em;
+  border-color: #646d66;
+}
+
+
+div#zdjecie8 {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t31.0-8/21318974_1389139127871228_8644710681712973163_o.jpg?oh=2637fc4f2c7bb37ee500ef98a814c00b&oe=5AC7415F");
+    height: 20em;
+    width: 20em;
+    background-position: 40% 20%;
+        background-size: cover;
+      opacity: 0.6;
+      border-style: solid;
+  border-width: 0.1em;
+  border-color: #646d66;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  div#portfolio {
+    display: inline-grid;
+    width: 100%;
+  }
+
+  div#zdjecie0 {
+    margin-right: 15%;
+  }
+
+  div#zdjecie1 {
+    margin-right: 15%;
+  }
+
+  div#zdjecie2 {
+  }
+
+   div#zdjecie3 {
+        margin-right: 15%;
+
+  }
+
+   div#zdjecie4 {
+    margin-right: 15%;
+  }
+
+   div#zdjecie5 {
+  }
+
+  div#zdjecie6 {
+        margin-right: 15%;
+  }
+
+  div#zdjecie7 {
+    margin-right: 15%;
+  }
+
+  div#zdjecie8 {
+  }
+
+}
+
+.text {
+visibility: hidden; 
+position:relative;
+text-align: center;
+width: 100%;
+margin: auto;
+top: 17em;
+padding-top: 1%;
+padding-bottom: 1%;
+font-size: 1em;
+font-style: bolder;
+font-family: Barlow Semi Condensed;
+background-color: rgb(109, 157, 119);
+/* border-color: #fc896c; */
+border-color: white;
+letter-spacing: 0.2em;
+color: #2f2d2d;
+}
+
+
+div#zdjecie0:hover {
+  opacity: 1;
+}
+
+div#zdjecie0 :hover .text {
+  visibility: visible;
+}
+
+div#zdjecie1:hover {
+  opacity: 1;
+}
+
+div#zdjecie1 :hover .text {
+  visibility: visible;
+}
+
+div#zdjecie2:hover {
+  opacity: 1;
+}
+
+div#zdjecie2 :hover .text {
+  visibility: visible;
+}
+
+div#zdjecie3:hover {
+  opacity: 1;
+}
+
+div#zdjecie3 :hover .text {
+  visibility: visible;
+}
+
+div#zdjecie4:hover {
+  opacity: 1;
+}
+
+div#zdjecie4 :hover .text {
+  visibility: visible;
+}
+
+div#zdjecie5:hover {
+  opacity: 1;
+}
+
+div#zdjecie5 :hover .text {
+  visibility: visible;
+}
+
+div#zdjecie6:hover {
+  opacity: 1;
+}
+
+div#zdjecie6 :hover .text {
+  visibility: visible;
+}
+
+div#zdjecie7:hover {
+  opacity: 1;
+}
+
+div#zdjecie7 :hover .text {
+  visibility: visible;
+}
+
+div#zdjecie8:hover {
+  opacity: 1;
+}
+
+div#zdjecie8 :hover .text {
+  visibility: visible;
+}
+
+
+.dopodstrony {
+	height: 106%;
+	width: 100%;
+	display:inline-block;
+}
+
+#port a:link {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+#port a:visited {
+	text-decoration: none;
+	color: darkgreen;
+}
+
+#port a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#port a:active {
+	color: white;
+	text-decoration: none;
+}
+
+
+/* --------------------------------------stats-------------------------------------- */
+
+div#stats {
+  width: 80%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  margin-left: 10%;
+}
+
+p10 {
+  color: #0000009e;
+  font-family: Architects Daughter;
+  font-size: 2.2em;
+  text-align: center;
+  font-weight: 900;
+  line-height: 90%;
+}
+
+p12 {
+    color: #5c8c69;
+  font-family: Barlow Semi Condensed;
+  font-size: 1.7em;
+  text-align: center;
+  line-height: 80%;
+}
+
+p11 {
+  color: #0000009e;
+  font-family: Barlow Semi Condensed;
+  font-size: 1.3em;
+  text-align: center;
+    line-height: 90%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  div#stats {
+    font-size: 0.4em;
+  }
+}
+
+/* --------------------------------------OFERTA-------------------------------------- */
+div#ofertamax {
+  background-color: #e9e9e570;
+  margin-bottom: 4em;
+}
+
+div#zaproszenieofertowe {
+  font-family: Barlow Semi Condensed;
+  display: block;
+  font-size: 2.5em;
+  text-align: left;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  color: #6d9d78;
+  margin-left: 2.2em;
+  margin-bottom: 0.3em;
+}
+@media only screen and (max-device-width: 480px) {
+  div#zaproszenieofertowe {
+    display: block;
+    font-size: 1.2em;
+  }
+}
+
+div#oferta {
+  display: grid;
+  margin-top: 0.2em;
+  margin-bottom: 6.5em;
+  /* border: 2px green solid; */
+  width: 98%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: justify;
+  overflow: scroll;
+  padding-bottom: 4em;
+}
+
+@media only screen and (max-device-width: 480px) {
+  div#oferta {
+    display: block;
+    font-size: 0.6em;
+  }
+}
+
+
+div#box {
+  color: black;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 1em;
+  padding: 5%;
+  transition: all .4s ease-in-out; 
+}
+
+div#box:hover {
+transform: scale(1.1);
+background-color: rgba(125, 191, 141, 0.98);
+color: #282727;
+ }
+
+div#box2 {
+  color: black;
+  margin-top: 2%;
+  margin-bottom: 1em;
+  padding: 5%;
+  border-right-color: rgba(125, 191, 141, 0.98);
+  border-left-color: rgba(125, 191, 141, 0.98);
+  border-right-style: dotted;
+  border-left-style: dotted;
+  transition: all .4s ease-in-out;
+}
+
+
+
+div#box2:hover {
+transform: scale(1.1);
+background-color: rgba(125, 191, 141, 0.98);
+color: #282727;
+ }
+
+
+h3 {
+	text-align: center;
+  font-family: Barlow Semi Condensed;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+p3 {
+font-family: Barlow Semi Condensed;
+text-align: justify;
+font-size: 0.9em;
+}
+
+i.fa.ofertowe {
+	font-size: 180%;
+	text-align: center;
+  display: block;
+}
+
+
+div#zacheta {
+	width: 100%;
+	padding-top: 2.5em;
+	padding-bottom: 2em;
+}
+
+p4 {
+font-family: Barlow Semi Condensed;
+	font-size: 3.3em;
+	text-align: center;
+	display: inherit;
+}
+
+div#kontakt {
+  display: grid;
+  border-color: #00000029;
+  border-style: dashed;
+  border-width: 0.02em;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-bottom: 10%;
+  /* border: 2px green solid; */
+  width: 80%;
+  min-height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: justify;
+  background-color: #f3f3f3ad;
+}
+
+i.fa#kontaktowe {
+	font-size: 2.8em;
+	text-align: justify; 
+  color: #54865e;
+	}
+
+i.fa#kontaktowe:hover {
+color: #e1c53a;
+  }
+
+div#box3 {
+	text-align: center;
+}
+
+h4 {
+	width: 100%;
+text-align: center;
+	margin-top: 5%;
+	display: inherit;
+	font-size: 1.2em;
+	color: #e19e3a;
+  font-family: Architects Daughter;
+}
+
+p5 {
+	width: 100%;
+	margin-top: 5%;
+	display: inherit;
+	text-align: center;
+  font-size: 0.9em;
+  font-family: Barlow Semi Condensed;
+}
+
+.box3 a {
+  display: inline-block;
+}
+
+a:link {
+  color: #6d9d78;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #6d9d78;
+}
+
+a:hover {
+  color: #fcd253;
+  text-decoration: none;
+}
+
+a:active {
+  color: #fcd253;
+  text-decoration: none;
+}
+/* --------------------------------------FOOTER-------------------------------------- */
+
+.footer {
+  background-color: #54865e;
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 0.2em;
+}
+p6 {
+  font-family: Architects Daughter;
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+}
+
+p6:hover {
+  color: #e1c53a;
+}
+
+
+

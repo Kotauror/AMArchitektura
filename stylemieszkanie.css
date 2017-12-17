@@ -1,0 +1,179 @@
+body, html {
+  font-family: 'Lucida Console', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: initial;
+  background: white; 
+}
+
+/* --------------------------------------TOP MENU, NAVIGATION-------------------------------------- */
+
+div.top-menu {
+	display: flex;
+	width: 100%;
+	height: 3.3em;
+	position: fixed;
+	z-index: 1;
+	background-color: white;
+	border-bottom-color: rgb(109, 157, 119);
+	border-bottom-style: dashed;
+	border-bottom-width: 0.05em;
+}
+
+nav.navigation {
+	width: 100%;
+	z-index: 1;
+	height: 3.3em;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+#top a:link {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+#top a:visited {
+	text-decoration: none;
+	color: darkgreen;
+}
+
+#top a:hover {
+	color: #fcd253;
+	text-decoration: none;
+}
+
+#top a:active {
+	color: #fcd253;
+	text-decoration: none;
+}
+
+
+div.logo img {
+	  z-index: 1;
+    margin-bottom: 0.4em;
+    margin-right: 0.5em;
+    margin-left: 1em;
+    margin-top: 0.4em;
+    height: 2.5em;
+}
+
+ ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  height: 3em;
+  vertical-align: center;
+  overflow: scroll;
+  margin-top: 0;
+  margin-bottom: 0;
+} 
+
+ li {
+ color: rgb(97, 97, 97);
+ font-family: Architects Daughter;
+  font-weight: 130;
+  letter-spacing: 0.2em;
+  display: inline-block; 
+  width: 22.5%;
+  text-align: center;
+  padding-top: 0.7em;
+  font-size: 1.3em;
+}
+
+li:hover {
+	color: #e1c53a;
+}
+
+
+/* --------------------------------------PHOTOS-------------------------------------- */
+.wszystko {
+}
+
+
+.photos {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 4%;
+  margin-top: 4em;
+}
+
+.opis {
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+  height: 10em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 0.7em;
+  overflow: scroll;
+}
+
+h1 {
+   font-family: Barlow Semi Condensed;
+      color: #6d9d78;
+     font-size: 2.5em;
+     text-align: left;
+}
+
+p1 {
+  font-family: Barlow Semi Condensed;
+  text-align: left;
+  display: flex;
+    color: #828a85;
+}
+
+
+.item {
+	display: inline-block;
+	width: 80%;
+	vertical-align: top;
+	height: 55em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	margin-bottom: 0.7em;
+	overflow: scroll;
+}
+
+
+.item#phot1 {
+background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18766084_1298783356906806_4302607458813241338_n.jpg?oh=b5f2f019ee432e40902d2444ce54aed0&oe=5AC7C0FC");
+}
+
+.item#phot2 {
+	background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18813190_1298783363573472_5176513006579821113_n.jpg?oh=813d1826f5c0714d8772259121bd9bb6&oe=5ACFA4FD");
+}
+
+.item#phot3 {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18813289_1298783360240139_4685627033918137800_n.jpg?oh=2574fe3006b2a7cd8fe8d0a48309a846&oe=5A980965");
+}
+
+.item#phot4 {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/18740257_1298783423573466_8019673295863060768_n.jpg?oh=3021e0c11bd0e3bf191f7371cf4c7aa0&oe=5AC6D55D");
+}
+
+
+/* --------------------------------------FOOTER-------------------------------------- */
+
+.footer {
+  background-color: #54865e;
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 0.2em;
+}
+p6 {
+  font-family: Architects Daughter;
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+}
+
+p6:hover {
+  color: #e1c53a;
+}
+
