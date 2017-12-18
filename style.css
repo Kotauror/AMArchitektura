@@ -15,7 +15,7 @@ div.top-menu {
 	height: 3.3em;
 	position: fixed;
 	z-index: 1;
-	background-color: white;
+	background-color: #fffffff5;
   border-bottom-color: rgb(109, 157, 119);
 	border-bottom-style: dashed;
 	border-bottom-width: 0.05em;
@@ -270,7 +270,7 @@ div#zdjecie0 {
       background-size: cover;
   opacity: 0.6;
   border-style: solid;
-  border-width: 0.1em;
+  border-width: 0.2em;
   border-color: #646d66;
 }
 
@@ -282,7 +282,7 @@ div#zdjecie1 {
       background-size: cover;
   opacity: 0.6;
   border-style: solid;
-  border-width: 0.1em;
+  border-width: 0.2em;
   border-color: #646d66;
 }
 
@@ -294,7 +294,7 @@ div#zdjecie2 {
         background-size: cover;
       opacity: 0.6;
       border-style: solid;
-  border-width: 0.1em;
+  border-width: 0.2em;
   border-color: #646d66;
 }
 
@@ -306,7 +306,7 @@ div#zdjecie3 {
         background-size: cover;
       opacity: 0.6;
       border-style: solid;
-  border-width: 0.1em;
+  border-width: 0.2em;
   border-color: #646d66;
 }
 
@@ -319,7 +319,7 @@ div#zdjecie4 {
     background-size: cover;
       opacity: 0.6;
       border-style: solid;
-  border-width: 0.1em;
+  border-width: 0.2em;
   border-color: #646d66;
 }
 
@@ -331,7 +331,7 @@ div#zdjecie5 {
         background-size: cover;
       opacity: 0.6;
       border-style: solid;
-  border-width: 0.1em;
+  border-width: 0.2em;
   border-color: #646d66;
 }
 
@@ -343,7 +343,7 @@ div#zdjecie6 {
         background-size: cover;
       opacity: 0.6;
       border-style: solid;
-  border-width: 0.1em;
+  border-width: 0.2em;
   border-color: #646d66;
 }
 
@@ -356,7 +356,7 @@ div#zdjecie7 {
         background-size: cover;
       opacity: 0.6;
       border-style: solid;
-  border-width: 0.1em;
+  border-width: 0.2em;
   border-color: #646d66;
 }
 
@@ -369,7 +369,7 @@ div#zdjecie8 {
         background-size: cover;
       opacity: 0.6;
       border-style: solid;
-  border-width: 0.1em;
+  border-width: 0.2em;
   border-color: #646d66;
 }
 
@@ -427,7 +427,7 @@ padding-bottom: 1%;
 font-size: 1em;
 font-style: bolder;
 font-family: Barlow Semi Condensed;
-background-color: rgb(109, 157, 119, 0.70);
+background-color: rgba(109, 157, 119, 0.70);
 /* border-color: #fc896c; */
 border-color: white;
 letter-spacing: 0.2em;

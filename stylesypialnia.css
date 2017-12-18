@@ -4,7 +4,7 @@ body, html {
   height: 100%;
   margin: 0px;
   display: initial;
-  background: white; 
+  background: white;
 }
 
 /* --------------------------------------TOP MENU, NAVIGATION-------------------------------------- */
@@ -15,7 +15,7 @@ div.top-menu {
   height: 3.3em;
   position: fixed;
   z-index: 1;
-  background-color: white;
+  background-color: #fffffff5;
   border-bottom-color: rgb(109, 157, 119);
   border-bottom-style: dashed;
   border-bottom-width: 0.05em;
@@ -68,14 +68,14 @@ div.logo img {
   overflow: scroll;
   margin-top: 0;
   margin-bottom: 0;
-} 
+}
 
  li {
  color: rgb(97, 97, 97);
  font-family: Architects Daughter;
   font-weight: 130;
   letter-spacing: 0.2em;
-  display: inline-block; 
+  display: inline-block;
   width: 22.5%;
   text-align: center;
   padding-top: 0.7em;
@@ -175,4 +175,3 @@ p6 {
 p6:hover {
   color: #e1c53a;
 }
-
