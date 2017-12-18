@@ -105,16 +105,17 @@ background-position: 45% 55%;
 
 h9 {
   font-family: Barlow Semi Condensed;
-  font-size: 3.5em;
-  color: #ad8f51;
+  font-size: 3em;
+  color: #ad8f5178;
   display: inline-block;
   text-align: center;
   width: 100%;
-  margin-top: 2.5em;
+  margin-top: 3.15em;
   padding-top: 1em;
   padding-bottom: 1em;
   transition: all .6s ease-in-out;
   cursor: default;
+  letter-spacing: 0.2em;
 
 }
 
@@ -420,13 +421,13 @@ position:relative;
 text-align: center;
 width: 100%;
 margin: auto;
-top: 17em;
+top: 17.5em;
 padding-top: 1%;
 padding-bottom: 1%;
 font-size: 1em;
 font-style: bolder;
 font-family: Barlow Semi Condensed;
-background-color: rgb(109, 157, 119);
+background-color: rgb(109, 157, 119, 0.70);
 /* border-color: #fc896c; */
 border-color: white;
 letter-spacing: 0.2em;
