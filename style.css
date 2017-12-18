@@ -4,7 +4,7 @@ body, html {
   height: 100%;
   margin: 0px;
   display: initial;
-  background: white; 
+  background: white;
 }
 
 /* --------------------------------------TOP MENU, NAVIGATION-------------------------------------- */
@@ -68,14 +68,14 @@ div.logo img {
   overflow: scroll;
   margin-top: 0;
   margin-bottom: 0;
-} 
+}
 
  li {
  color: rgb(97, 97, 97);
  font-family: Architects Daughter;
   font-weight: 130;
   letter-spacing: 0.2em;
-  display: inline-block; 
+  display: inline-block;
   width: 22.5%;
   text-align: center;
   padding-top: 0.7em;
@@ -150,7 +150,7 @@ div#omnie {
   margin-left: auto;
   align-items: right;
   align-content: right;
-  position: relative; 
+  position: relative;
   width: 100%;
   text-align: right;
   font-family: inherit;
@@ -194,10 +194,10 @@ i#charakter {
   text-align: center;
 	}
 
-div#zdania:hover {
+/* div#zdania:hover {
   background-color: rgba(167, 167, 167, 0.28);
   border-style: dashed;
-}
+} */
 
 
 p0 {
@@ -257,7 +257,7 @@ div#portfolio {
   grid-template-columns: 33% 33% 33%;
   margin-left: auto;
   margin-right: auto;
-} 
+}
 
 
 
@@ -415,7 +415,7 @@ div#zdjecie8 {
 }
 
 .text {
-visibility: hidden; 
+visibility: hidden;
 position:relative;
 text-align: center;
 width: 100%;
@@ -632,7 +632,7 @@ div#box {
   margin-top: 2%;
   margin-bottom: 1em;
   padding: 5%;
-  transition: all .4s ease-in-out; 
+  transition: all .4s ease-in-out;
 }
 
 div#box:hover {
@@ -718,7 +718,7 @@ div#kontakt {
 
 i.fa#kontaktowe {
 	font-size: 2.8em;
-	text-align: justify; 
+	text-align: justify;
   color: #54865e;
 	}
 
@@ -792,6 +792,3 @@ p6 {
 p6:hover {
   color: #e1c53a;
 }
-
-
-
