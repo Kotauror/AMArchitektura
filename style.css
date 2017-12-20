@@ -98,9 +98,9 @@ div#poczatek {
 background-image: url("https://preview.ibb.co/f8Yjxm/1.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-height: 44.5em;
+height: 49em;
 width: 100%;
-background-position: 45% 55%;
+background-position: 45% 75%;
 }
 
 h9 {
@@ -110,7 +110,7 @@ h9 {
   display: inline-block;
   text-align: center;
   width: 100%;
-  margin-top: 3.2em;
+  margin-top: 2.7em;
   padding-top: 1em;
   padding-bottom: 1em;
   transition: all .6s ease-in-out;
