@@ -126,19 +126,18 @@ p1 {
 }
 
 
-
-
 .item {
 	display: inline-block;
-	width: 80%;
+	width: 60%;
 	vertical-align: top;
-	height: 55em;
+	height: 30em;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	margin-bottom: 0.7em;
 	overflow: scroll;
 }
+
 
 
 .item#phot1 {

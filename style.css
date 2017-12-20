@@ -265,8 +265,8 @@ div#portfolio {
   height: 20em;
   width: 20em;
   background-size: cover;
-  opacity: 0.6;
-  filter: grayscale(75%);
+  opacity: 0.5;
+  filter: grayscale(45%);
   border-style: solid;
   border-width: 0.2em;
   border-color: #646d66;
@@ -381,88 +381,14 @@ color: #2f2d2d;
 }
 
 
-/*
-div#zdjecie0:hover {
+.zdjeciex:hover {
   opacity: 1;
   filter: grayscale(0%);
 }
 
-div#zdjecie0 :hover .text {
+.zdjeciex :hover .text {
   visibility: visible;
 }
-
-div#zdjecie1:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-}
-
-div#zdjecie1 :hover .text {
-  visibility: visible;
-}
-
-div#zdjecie2:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-}
-
-div#zdjecie2 :hover .text {
-  visibility: visible;
-}
-
-div#zdjecie3:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-}
-
-div#zdjecie3 :hover .text {
-  visibility: visible;
-}
-
-div#zdjecie4:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-}
-
-div#zdjecie4 :hover .text {
-  visibility: visible;
-}
-
-div#zdjecie5:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-}
-
-div#zdjecie5 :hover .text {
-  visibility: visible;
-}
-
-div#zdjecie6:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-}
-
-div#zdjecie6 :hover .text {
-  visibility: visible;
-}
-
-div#zdjecie7:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-}
-
-div#zdjecie7 :hover .text {
-  visibility: visible;
-}
-
-div#zdjecie8:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-}
-
-div#zdjecie8 :hover .text {
-  visibility: visible;
-}
-
 
 .dopodstrony {
 	height: 106%;
@@ -489,7 +415,7 @@ div#zdjecie8 :hover .text {
 	color: white;
 	text-decoration: none;
 }
-*/
+
 
 /* --------------------------------------stats-------------------------------------- */
 
